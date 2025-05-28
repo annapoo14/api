@@ -1,9 +1,9 @@
 
 //stringify => object to json
 // let mahasiswa = {
-//     nama : "dicky facturiawan",
-//     nrp : "0987654321234",
-//     email : "dicky@gmail.com"
+//     nama : "Erika Nurhasnah",
+//     nrp : "2217020014",
+//     email : "erikanurhasnah2609@gmail.com"
 // }
 // console.log(JSON.stringify(mahasiswa));
 
