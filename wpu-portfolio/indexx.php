@@ -1,3 +1,28 @@
+<?php
+function get_CURL($url)
+{
+  $curl = curl_init();
+  curl_setopt($curl, CURLOPT_URL, $url);
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+  $result = curl_exec($curl);
+  curl_close($curl);
+
+  return json_decode($result, true);
+}
+
+$result = get_CURL('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCvh5ndmeaPVwrog3kLC93ow&key=AIzaSyDl9P1svYKBRCwTO48J0v4dbc7iWkgzVwE');
+
+$youtubeProfilePic = $result ['items'][0]['snippet']['thumbnails']['medium']['url'];
+$channelName = $result ['items'][0]['snippet']['title'];
+$subscriber = $result ['items'][0]['statistics']['subscriberCount'];
+
+// latest video
+$urlLatestVideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDl9P1svYKBRCwTO48J0v4dbc7iWkgzVwE&channelId=UCvh5ndmeaPVwrog3kLC93ow&maxResults=1&order=date&part=snippet&type=video';
+$result = get_CURL($urlLatestVideo);
+$latestVideoId = $result['items'][0]['id']['videoId'];
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,7 +42,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Erika Nurhasnah</a>
+        <a class="navbar-brand" href="#home">Queen Erika</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,6 +53,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social">Sosial Media</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
