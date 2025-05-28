@@ -1,0 +1,31 @@
+[
+{
+    "nama": "Erika Nurhasnah",
+    "umur": 20,
+    "nim": "2217020014",
+    "lulus": true,
+    "hobby": [
+        "coding",
+        "gaming"
+    ],
+    "pembimbing": {
+"pembimbing1":"pak hendy",
+"pembimbing2":"pak rahmad"
+    }
+},
+
+{
+    "nama": "Rina Sopiana Hasibuan",
+    "umur": 21,
+    "nim": "2217020006",
+    "lulus": true,
+    "hobby": [
+        "coding",
+        "gaming"
+    ],
+    "pembimbing": {
+"pembimbing1":"pak hendy",
+"pembimbing2":"pak rahmad"
+    }
+}
+]
