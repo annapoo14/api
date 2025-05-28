@@ -87,10 +87,12 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
         </div>
         <div class="row justify-content-center">
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>Hi! My name is Erika Nurhasnah, and I was born in Padang on September 26, 2002. I am currently a sixth-semester student majoring in Information Systems at UIN Imam Bonjol Padang.
+            I have a strong interest in design and data exploration. Design allows me to express my creativity, while working with data challenges me to think analytically and pay attention to detail.</p>
           </div>
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>I am the eldest of two siblings and currently live with my grandmother in Padang. In my free time, I enjoy cycling, running, and drawing—activities that help keep both my body and mind active.
+            I believe that combining technical skills, creativity, and a passion for learning will help me build a better and brighter future.</p>
           </div>
         </div>
       </div>
@@ -171,27 +173,30 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/family.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Kolase inspirasi visual yang saya buat untuk menuangkan perasaan dan kreativitas dalam bentuk desain. 
+                  Setiap gambar memiliki makna tersendiri dan menggambarkan suasana hati saya.</p>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/naruto1.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Ilustrasi digital yang saya buat dari karakter favorit saya. 
+                  Menggambar merupakan salah satu cara saya mengekspresikan imajinasi dan hobi saya sejak kecil.</p>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/mapping.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Perencanaan studi saya selama kuliah. 
+                  Gambar ini saya desain sendiri untuk membantu memvisualisasikan perjalanan akademik saya dari semester 1 hingga 8.</p>
               </div>
             </div>
           </div>   
@@ -202,25 +207,27 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
             <div class="card">
               <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Tangkapan layar dari aktivitas saya dalam dunia pemrograman. Sebagai mahasiswa Sistem Informasi, 
+                  saya sering menulis kode dan membangun proyek sebagai bagian dari pembelajaran dan eksplorasi teknologi.</p>
               </div>
             </div>
           </div> 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/sky.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
+                <p class="card-text">Keseharian saya tidak lepas dari mengabadikan keindahan sekitar. 
+                  Saya suka memotret langit, bunga, dan suasana alam sebagai bentuk apresiasi terhadap hal-hal kecil yang menenangkan.</p>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/7.jpg" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Foto ini saya ambil saat bersepeda di sore hari. 
+                  Aktivitas ini adalah bagian dari hobi saya yang menyegarkan pikiran sambil menikmati keindahan alam sekitar.</p>
               </div>
             </div>
           </div>
@@ -243,15 +250,15 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
             <div class="card bg-primary text-white mb-4 text-center">
               <div class="card-body">
                 <h5 class="card-title">Contact Me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Wa: +6282171615501</p>
               </div>
             </div>
             
             <ul class="list-group mb-4">
               <li class="list-group-item"><h3>Location</h3></li>
-              <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
-              <li class="list-group-item">West Java, Indonesia</li>
+              <li class="list-group-item">Padang</li>
+              <li class="list-group-item">Jl. kabun, RT.3/RW.8, kelurahan balai gadang, koto tangah</li>
+              <li class="list-group-item">West Sumatera, Indonesia</li>
             </ul>
           </div>
 
