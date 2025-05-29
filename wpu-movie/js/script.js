@@ -27,21 +27,13 @@ function searchMovie() {
                                     data-id="` + data.imdbID +`">See Detail</a>
                                     </div>
                                 </div>
-                            </div>
-                        `);
+                            </div>`);
         });
 
         $("#search-input").val("");
       } else {
         $("#movie-list").html(
-          `
-                        <div class="col">
-                            <h1 class= "text-center">` +
-            result.Error +
-            `</h1>
-                        </div>
-                    `
-        );
+          `<div class="col"><h1 class= "text-center">` + result.Error +`</h1></div>`);
       }
     },
   });
@@ -73,7 +65,7 @@ $("#movie-list").on("click", ".see-detail", function () {
                 $('#modal-body').html(`
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                  <img src="`+ movie.Poster +`" class="img-fluid">
                             </div>
 
