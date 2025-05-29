@@ -21,6 +21,18 @@ $urlLatestVideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyDl9P1s
 $result = get_CURL($urlLatestVideo);
 $latestVideoId = $result['items'][0]['id']['videoId'];
 
+// intragram API
+// $clientId = '1848337862683204';
+// $acces_token='EAAaRDbG66kQBOwVLYPPTP3RPRDoKnTHg4HLNChrf8lgnMDoYYYqNA3bJRBgw52ZCh7Mg1pu4g4VpZC1IfLAroJyhsb333WfXi9376VQ2nKhVFIgrtVPf85pg9EEoW2dHRZCKxoQPivyTVAUuXwFbaZCnehATaNRhjg7NcWuqY1QgADddZAgC9UciiyeWecpdo';
+
+// $result = get_CURL('https://api,instagram.com/v1/users/self?
+// access_token=EAAaRDbG66kQBOwVLYPPTP3RPRDoKnTHg4HLNChrf8lgnMDoYYYqNA3bJRBgw52ZCh7Mg1pu4g4VpZC1IfLAroJyhsb333WfXi9376VQ2nKhVFIgrtVPf85pg9EEoW2dHRZCKxoQPivyTVAUuXwFbaZCnehATaNRhjg7NcWuqY1QgADddZAgC9UciiyeWecpdo');
+
+// $result = get_CURL('https://api,instagram.com/v1/users/self?access_token=EAAaRDbG66kQBOwVLYPPTP3RPRDoKnTHg4HLNChrf8lgnMDoYYYqNA3bJRBgw52ZCh7Mg1pu4g4VpZC1IfLAroJyhsb333WfXi9376VQ2nKhVFIgrtVPf85pg9EEoW2dHRZCKxoQPivyTVAUuXwFbaZCnehATaNRhjg7NcWuqY1QgADddZAgC9UciiyeWecpdo');
+// $usernameIG = $result['data']['username'];
+// $profilePictureIG = $result['data']['profile_picture'];
+// $followersIG = $result['data']['counts']['followed_by'];
+
 ?>
 
 <!doctype html>
@@ -59,6 +71,9 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -138,27 +153,25 @@ $latestVideoId = $result['items'][0]['id']['videoId'];
                 <div class="col-md-8">
                   <h5>@_hasnah.nyu</h5>
                   <p>Erika Nurhasnah ~ 안나 🐬</p>
-                  <p>2000 Followers</p>
+                  <p>202 Followers</p>
                 </div>
               </div>
               <div class="row">
                 <div class="col">
                   <div class="ig-thumbnail">
-                    <img src="img/thumbs/1.png">
+                    <img src="img/thumbs/7.jpg">
                   </div>
                   <div class="ig-thumbnail">
                     <img src="img/thumbs/2.png">
                   </div>
                   <div class="ig-thumbnail">
-                    <img src="img/thumbs/3.png">
+                    <img src="img/thumbs/mapping.png">
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
 
